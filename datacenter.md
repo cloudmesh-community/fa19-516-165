@@ -13,9 +13,19 @@
   The average cost per kW was EUR 0.117, which was $0.13 kW (based on 9/3/2019
   currency rate between EUR and US Dollar).[1]
 
+* Yearly cost $50 M. Between 2011 and 2017, the company spent $350 M in Ireland
+data center. [1]
+
+* IT Workload: 22,187.5 KW
+
+ *Calculation:*
+
+  Google centers consumed 710 MW between 2010 to 2018 in Europe.[1] Google has four data
+  centers in Europe. For each, on average the 22.1875 MW.
+
 ## E.Datacenter 3
 
-* Based on my estimation, my carbon footprint is 71,718.
+* Based on the estimation, my carbon footprint is 71,718.
 
 ## E.Datacenter 4
 
@@ -50,14 +60,21 @@ for the top seven airlines was about $17.75 [6]. Thus, due to this outage, Unite
 Airlines lost at least $71,000 net profit from cancelled flights. At the same
 time, the company also delayed 4,000 flight. This number did not count for the
 costs of reschedule passengers' travel, compensated passengers' time, reputation
-damages, and potential fine from the FAA. 
+damages, and potential fine from the FAA.
 
 
 ## References
 
-[1] https://www.copenhageneconomics.com/dyn/resources/Filelibrary/file/9/109/1525764693/copenhagen-economics-2018-european-data-centres-case-study-ireland.pdf
-[2] http://biomassmagazine.com/articles/5808/biomass-powered-data-centers
-[3] http://www.vineyarddatacenterpark.com/
-[4] https://www.apple.com/newsroom/2018/04/apple-now-globally-powered-by-100-percent-renewable-energy/
-[5] https://www.datacenterknowledge.com/archives/2017/01/23/united-says-it-outage-resolved-dozen-flights-canceled-monday
-[6] http://money.com/money/5158363/airline-profit-per-passenger/
+[1] European data centres How Google’s digital infrastructure investment is
+supporting sustainable growth in Europe Country case: Ireland. Retrieved from
+https://www.copenhageneconomics.com/dyn/resources/Filelibrary/file/9/109/1525764693/copenhagen-economics-2018-european-data-centres-case-study-ireland.pdf
+
+[2] Biomass-Powered Data Centers. Retrieved from http://biomassmagazine.com/articles/5808/biomass-powered-data-centers
+
+[3] Vineyard Data Center Park. Retrieved from http://www.vineyarddatacenterpark.com/
+
+[4] Apple now globally powered by 100 percent renewable energy. Retrieved from https://www.apple.com/newsroom/2018/04/apple-now-globally-powered-by-100-percent-renewable-energy/
+
+[5] United Says IT Outage Resolved, Dozen Flights Canceled Monday. Retrieved from https://www.datacenterknowledge.com/archives/2017/01/23/united-says-it-outage-resolved-dozen-flights-canceled-monday
+
+[6] Here's How Much Airlines Are Profiting Off Your Plane Ride. Retrieved from http://money.com/money/5158363/airline-profit-per-passenger/
