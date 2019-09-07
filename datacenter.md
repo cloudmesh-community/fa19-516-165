@@ -1,5 +1,4 @@
-
-# Data Center
+# Datacenter
 
 ## E.Datacenter 2
 
@@ -9,10 +8,17 @@
 * Year: 2012 (in operation)
 * Electricity Cost ($/KW): 0.13
 
+<<<<<<< HEAD
   *Calculation:*
   The average cost per kW was EUR 0.117, which was $0.13 kW (based on 9/3/2019 currancy rate between EUR and US Dolloar).[1]
 
 ## E.Datacenter 3
+=======
+*Calculation:*
+  
+The average cost per kW was EUR 0.117, which was $0.13 kW (based on
+9/3/2019 currancy rate between EUR and US Dolloar).
+>>>>>>> 24560d0021023b100b31c71d3f77cd3cdceb59e7
 
 * Based on my estimation, my carbon footprint is 71,718.
 
