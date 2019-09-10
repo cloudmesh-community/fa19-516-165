@@ -1,6 +1,8 @@
 # Data Center fa19-516-165
 
-  ## E.Datacenter 2
+:o2: fix urls
+
+## E.Datacenter 2
 
 * Data center: the Google Dublin Data Center
 * Organization: Google
