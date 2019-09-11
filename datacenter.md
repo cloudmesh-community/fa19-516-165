@@ -1,6 +1,6 @@
 # Data Center fa19-516-165
 
-:o2: fix urls
+-[x] :o2: fix urls
 
 ## E.Datacenter 2
 
@@ -69,14 +69,14 @@ damages, and potential fine from the FAA.
 
 [1] European data centres How Google’s digital infrastructure investment is
 supporting sustainable growth in Europe Country case: Ireland. Retrieved from
-https://www.copenhageneconomics.com/dyn/resources/Filelibrary/file/9/109/1525764693/copenhagen-economics-2018-european-data-centres-case-study-ireland.pdf
+<https://www.copenhageneconomics.com/dyn/resources/Filelibrary/file/9/109/1525764693/copenhagen-economics-2018-european-data-centres-case-study-ireland.pdf>
 
-[2] Biomass-Powered Data Centers. Retrieved from http://biomassmagazine.com/articles/5808/biomass-powered-data-centers
+[2] Biomass-Powered Data Centers. Retrieved from <http://biomassmagazine.com/articles/5808/biomass-powered-data-centers>
 
-[3] Vineyard Data Center Park. Retrieved from http://www.vineyarddatacenterpark.com/
+[3] Vineyard Data Center Park. Retrieved from <http://www.vineyarddatacenterpark.com/>
 
-[4] Apple now globally powered by 100 percent renewable energy. Retrieved from https://www.apple.com/newsroom/2018/04/apple-now-globally-powered-by-100-percent-renewable-energy/
+[4] Apple now globally powered by 100 percent renewable energy. Retrieved from <https://www.apple.com/newsroom/2018/04/apple-now-globally-powered-by-100-percent-renewable-energy/>
 
-[5] United Says IT Outage Resolved, Dozen Flights Canceled Monday. Retrieved from https://www.datacenterknowledge.com/archives/2017/01/23/united-says-it-outage-resolved-dozen-flights-canceled-monday
+[5] United Says IT Outage Resolved, Dozen Flights Canceled Monday. Retrieved from <https://www.datacenterknowledge.com/archives/2017/01/23/united-says-it-outage-resolved-dozen-flights-canceled-monday>
 
-[6] Here's How Much Airlines Are Profiting Off Your Plane Ride. Retrieved from http://money.com/money/5158363/airline-profit-per-passenger/
+[6] Here's How Much Airlines Are Profiting Off Your Plane Ride. Retrieved from <http://money.com/money/5158363/airline-profit-per-passenger/>
