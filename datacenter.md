@@ -1,6 +1,6 @@
 # Data Center fa19-516-165
 
--[x] :o2: fix urls
+- [x] fix urls
 
 ## E.Datacenter 2
 
