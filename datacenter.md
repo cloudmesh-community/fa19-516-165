@@ -52,7 +52,7 @@ farms. These grass on the other hand is can feed yaks.
 On Jan 23, 2017, United Airlines suffered from a IT data center outage. This
 outage prevented United Airlines pilots from getting key data and passengers
 could not check their flights' information from internet. Thus, the company on
-that day cancelled 200 flights due to the Federal Aviation Administration's (FAA)
+that day cancelled over 200 flights due to the Federal Aviation Administration's (FAA)
 ground stop for the its scheduled flights.[5] It assumed
 that on average, 200 passengers on one domestic flights. In total, over 4,000
 passengers had to reschedule their travel. On average, the net profit for one passengers
