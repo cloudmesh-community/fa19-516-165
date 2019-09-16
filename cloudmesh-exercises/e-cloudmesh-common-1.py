@@ -1,7 +1,7 @@
 # E.Cloudmesh.Common.1 - week 3
 # Develop a program that demonstrates the use of banner, HEADING, and VERBOSE.
 
-# from CM import banner function
+# from CM import banner function.
 from cloudmesh.common.util import banner
 
 banner("Name:Zhi Wang | First Cloudmesh program | 09/2019")
