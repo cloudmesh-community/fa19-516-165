@@ -4,9 +4,8 @@
 from cloudmesh.common.Shell import Shell
 
 # print out the file location
-result = Shell.execute('pwd')
-print(result)
+result_1 = Shell.execute('pwd') # section 6.5, result should be pre-defined
+print(result_1)
 
-result = Shell.ping(host='amazon.com')
-print(result)
-
+result_2 = Shell.ping(host='amazon.com')
+print(result_2)
