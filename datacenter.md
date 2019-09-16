@@ -16,7 +16,7 @@
 * Yearly cost $50 M. Between 2011 and 2017, the company spent $350 M in Ireland
 data center. [1]
 
-* IT Workload: 22,187.5 KW
+* IT Workload: 22,187.5 KW.
 
  *Calculation:*
 
