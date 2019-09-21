@@ -1,4 +1,4 @@
-# Cloudmesh Compute Project with Google Cloud Platform (GCP)
+## Cloudmesh Compute Project with Google Cloud Platform (GCP)
 
 Zhi Wang, School of Public Health, Indiana University Bloomington
 
@@ -6,9 +6,21 @@ Zhi Wang, School of Public Health, Indiana University Bloomington
 
 ## Introduction
 
-## Design
+The purpose of this project is to implement related features to simply compute
+interface. The project implementation will include the following clouds:  
 
-## Implementation
+* Google Cloud Platform
+* OpenStack
+
+The benchmarks for this project will include the following components:
+
+* start virtual machine
+* image
+* flavors
+* security groups
+
+## Progress and Implementation
+
 
 ## Results
 
@@ -17,3 +29,7 @@ Zhi Wang, School of Public Health, Indiana University Bloomington
 ## Conclusion
 
 ## References
+
+* [https://cloudmesh.github.io/cloudmesh-manual/projects/project-compute.html](https://cloudmesh.github.io/cloudmesh-manual/projects/project-compute.html)
+* [https://cloud.google.com/compute/docs/tutorials/python-guide](https://cloud.google.com/compute/docs/tutorials/python-guide)
+* [https://github.com/cloudmesh/cloudmesh-cloud/tree/master/cloudmesh/compute](https://github.com/cloudmesh/cloudmesh-cloud/tree/master/cloudmesh/compute)
