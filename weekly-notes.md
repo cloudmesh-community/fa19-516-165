@@ -6,6 +6,10 @@ The link for Chamelon is [https://www.chameleoncloud.org](https://www.chameleonc
 
 The link for OpenStack Chamelon is [https://openstack.tacc.chameleoncloud.org](https://openstack.tacc.chameleoncloud.org/)
 
-How to get 
+How to get security group on Chameleon cloud?
 
-
+```bash  
+ssh-keygen -t rsa  
+ls ~/.ssh  
+cat ~/.ssh/id_rsa.pub  
+```
