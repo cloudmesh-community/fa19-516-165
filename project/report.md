@@ -6,7 +6,7 @@ Zhi Wang, [fa19-516-165](https://github.com/cloudmesh-community/fa19-516-165), S
 
 ## Introduction
 
-The purpose of this project is to implement related features to simply compute
+The purpose of this project is to implement related features to simplify compute
 interface. The project implementation will include the following clouds:  
 
 * Google Cloud Platform
