@@ -1,4 +1,4 @@
-## Cloudmesh Compute Project with Google Cloud Platform (GCP)
+# Cloudmesh Compute Project with Google Cloud Platform (GCP)
 
 Zhi Wang, [fa19-516-165](https://github.com/cloudmesh-community/fa19-516-165), School of Public Health, Indiana University Bloomington
 
