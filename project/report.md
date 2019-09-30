@@ -19,7 +19,7 @@ The benchmarks for this project will include the following components:
 * flavors
 * security groups
 
-## Progress and Implementation
+## Progress
 
 
 ## Results
