@@ -14,9 +14,9 @@ interface. The project implementation will include the following clouds:
 
 The benchmarks for this project will include the following components:
 
-* start virtual machine
+* virtual machine
 * image
-* flavors
+* flavor
 * security groups
 
 ## Progress
