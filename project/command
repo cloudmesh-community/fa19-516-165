@@ -1,0 +1,157 @@
+ 1  xcode-select --install
+    2  ls
+    3  python3 -m venv ~/ENV3
+    4  source `/ENV3/bin/activate
+    5  python --version
+    6  exit()
+    7  )
+    8  quit()
+    9  source ~/ENV3/bin/activate
+   10  python --version
+   11  source ~/ENV3/bin/activate
+   12  deactivate
+   13  pip install pip -U
+   14  source ~/ENV3/bin/activate
+   15  python3
+   16  pip install pip -U
+   17  deactivate
+   18  curl https://pyenv.run | bash
+   19  pip install pip -U
+   20  nano .bash_profile
+   21  pyenv virtualenv 3.7.4 ENV3
+   22  source ~/ENV3/bin/activate
+   23  pyenv virtualenv 3.7.4 ENV3
+   24  deactivate
+   25  curl https://pyenv.run | bash
+   26  pyenv install -l
+   27  curl https://pyenv.run | bash
+   28  nano .bash_profile
+   29  nano .bash_profile
+   30  nano .bash_profile
+   31  nano .bash_profile
+   32  nano .bash_profile
+   33  nano .bash_profile
+   34  pyenv
+   35  nano .bash_profile
+   36  ENV3
+   37  curl https://pyenv.run | bash
+   38  nano .bash_profile
+   39  ENV3
+   40  pyenv
+   41  ENV3
+   42  pyenv virtualenv 3.7.4 ENV3
+   43  nano .bash_profile
+   44  nano .bash_profile
+   45  deactivate
+   46  $ mkdir cm
+   47  mkdir cm
+   48  cd cm
+   49  pip install coloudmesh-installer
+   50  pip install cloudmesh-installer
+   51  cloudmesh-installer bundles
+   52  cloudmesh-installer git clone cms
+   53  cloudmesh-installer install cms -e
+   54  git clone https://github.com/cloudmesh-community/fa19-516-165.git
+   55  ls
+   56  pip install coudmesh-cm5
+   57  pip install cloudmesh-cmd5
+   58  deactivate
+   59  pip install cloudmesh-cmd5
+   60  deactivate
+   61  deactivate
+   62  conda -V
+   63  conda update conda
+   64  python
+   65  python version
+   66  conda info --version
+   67  conda info --envs
+   68  python info --envs
+   69  python
+   70  deactivate
+   71  conda create --name abcdstudy numpy pandas
+   72  conda env list
+   73  python
+   74  python
+   75  deactivate
+   76  python
+   77  conda activate abcdsutdy
+   78  conda activate abcdstudy
+   79  python
+   80  deactivate
+   81  mkdir abcdstudy
+   82  ls
+   83  cd abcdstudy
+   84  git clone https://github.com/zwang89/abcd_study.git
+   85  git clone https://github.com/zwang89/abcd_study.git
+   86  deactivate
+   87  conda activate abcdstudy
+   88  cd abcdstudy
+   89  git clone https://github.com/zwang89/abcd_analysis.git
+   90  git config --global user.email zhi.neo.wang@gmail.com
+   91  conda
+   92  ssh-keygen -t rsa -f cloud.key
+   93  cloud.key.pub.
+   94  cloud.key.pub
+   95  ls -al ~/.ssh
+   96  id_rsa.pub
+   97  pbcopy < ~/.ssh/id_rsa.pub
+   98  pbcopy < - cloud.key.pub
+   99  pbcopy < - ~/cloud.key.pub
+  100  pbcopy < - ~/.ssh/cloud.key.pub
+  101  ssh -i cloud.key
+  102  ssh -i cloud.key.pub
+  103  man ssh
+  104  ls ~/.ssh
+  105  ssh-keygen -t rsa -f cloud.key
+  106  ls ~/.ssh
+  107  ssh-keygen -t rsa
+  108  ls ~/.ssh
+  109  cat ~/.ssh/id_rsa.pub
+  110  ssh-keygen -t rsa
+  111  cat ~/.ssh/id_rsa.pub
+  112  ssh-keygen -t rsa
+  113  ls ~/.ssh
+  114  cat ~/.ssh/id_rsa.pub
+  115  /anaconda3/bin/jupyter_mac.command ; exit;
+  116  cms list
+  117  cms help
+  118  cms info
+  119  cms admin mongo install
+  120  ssh-keygen
+  121  emacs ~
+  122  which python
+  123  cms version
+  124  cd cm
+  125  ls
+  126  which python
+  127  which mongo
+  128  cms admin mongo create
+  129  cms admin mongo start
+  130  cms admin mongo stop
+  131  cms init
+  132  cms set list
+  133  cms set key=zhi
+  134  cms set list
+  135  emacs ~/.cloudmesh/
+  136  ls
+  137  cms flavor list
+  138  cms flavor list --refresh
+  139  cms images list --refresh
+  140  cms image list --refresh
+  141  cms vm list --refresh
+  142  cms vm boot
+  143  cms key help
+  144  cms key upload zhi --cloud=chameleon
+  145  cms key list --cloud=chameleon
+  146  cms vm boot
+  147  cms vm help
+  148  cms vm ssh zhi-vm-2
+  149  cms vm ssh zhi-vm-2
+  150  cms vm ssh zhi-vm-2
+  151  cms vm list --refresh
+  152  cms vm ssh zhi-vm-2
+  153  cms vm ssh zhi-vm-2
+  154  ssh cc@129.114.32.47
+  155  history
+  156  history
+(ENV3) 129-79-203-164:~ zwang$
