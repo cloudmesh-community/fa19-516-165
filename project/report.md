@@ -51,6 +51,47 @@ to your .bash_profile or .bashrc.
 For more information about zsh configuration, please visit [oh-my-zsh](https://ohmyz.sh)
 for more information. 
 
+##### Complete Steps to reinstall/create Python virtual environment in macOS Catalina
+
+- Why we need Python virtual environments?
+
+For different python projects, developers need different python development 
+environment to deploy codes. Virtual environments are needed to avoid destroy 
+
+- Steps to to create new environment for new projects by command lines. 
+
+    1. Create a new python 3 virtual environment and name it
+    
+        ~~~~
+        python3 -m venv ~/environment_name
+        ~~~~
+        
+    2.  Activate your new virtual environment. This step is important since
+    you need to activate your new python environment.  
+    
+        ~~~~
+        source ~/environment_name/bin/activate
+        ~~~~
+        
+    3. Even though you can use pycharm to install a package, you still 
+    need to have a package manager to help yo manage your packages. Starting 
+    this point, you are able to install the packages you want. 
+    
+        ~~~~
+        pip install pip -U
+        ~~~~
+        
+     4. To manage your environment easier, you can modify your zprofile 
+    and switch your environment easily. 
+     
+        ~~~~
+        alias d="source ~/environment_1/bin/activate "
+        alias env3="source ~/environment_2/bin/activate"
+        ~~~~
+        
+        Next time, you can just type aliases to activate your environments.
+    
+    
 ## Results
 
 ### Limitations 
