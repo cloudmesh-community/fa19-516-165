@@ -98,6 +98,15 @@ environment to deploy codes. Virtual environments are needed to avoid destroy
   1.  Key Management Service API
   
   2. Compute Engine Client API
+  
+### Week November 4
+
+Reviewed the Google Cloud Platform Python client library. In this week, I reviewed the documentations of Cloud Client 
+Libraries for Python. 
+
+### Week November 11
+
+Started to code Provider.py file for GCP.  
     
 ## Results
 
@@ -110,5 +119,6 @@ environment to deploy codes. Virtual environments are needed to avoid destroy
 * [Cloudmesh Development Projects- Cloudmesh Compute](https://cloudmesh.github.io/cloudmesh-manual/projects/project-compute.html)
 * [Using the Cloud Client Libraries for Python](https://cloud.google.com/compute/docs/tutorials/python-guide)
 * [Github Cloudmesh Compute](https://github.com/cloudmesh/cloudmesh-cloud/tree/master/cloudmesh/compute)
-* [oh-my-zhs]((https://ohmyz.sh))
+* [oh-my-zhs](https://ohmyz.sh)
 * [Scripting OS X](https://scriptingosx.com/)
+* [Google API core library](http://googleapis.github.io/google-api-python-client/docs/epy/index.html)
