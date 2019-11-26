@@ -91,6 +91,13 @@ environment to deploy codes. Virtual environments are needed to avoid destroy
         
         Next time, you can just type aliases to activate your environments.
     
+ ### Week October 21 
+ 
+ Identified related Google Cloud Libraries that are useful to this project, including
+ 
+  1.  Key Management Service API
+  
+  2. Compute Engine Client API
     
 ## Results
 
