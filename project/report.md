@@ -4,7 +4,7 @@ Zhi Wang, [fa19-516-165](https://github.com/cloudmesh-community/fa19-516-165), S
 
 ## Abstract
 
-The purpose of this project is 
+The purpose of this project is to implement Cloudmesh service in RStudio/R.
 
 ## Introduction
 
