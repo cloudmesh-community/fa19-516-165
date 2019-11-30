@@ -29,16 +29,27 @@ service, Cloudmesh provides a channel to interact with different cloud services.
 
 ## Technology Review -- Auto Machine Learning in Clouds
 
+## Process 
+
+Overall there are four steps to implement the code:
+
+1. Install necessary R package - reticulate
+
+2. Create R Markdown Environment
+
+3. Indicate Python Environment
+
+4. Implement existing Python code
+
 ## Results
 
 This project has successfully implemented Cloudmesh with OpenStack within RStudio. The biggest component for this project
-is to call/run Python script within RStudio by using Rstudio, R Markdown, and library 
+is to call/run Python script within RStudio by using Rstudio, R Markdown, and library - reticulate, to call existing 
+Clouldmesh with OpenStack service (based on the implemented project of Cloudmesh). 
 
 ### Limitations 
 
-This 
-
-## Conclusion
+This implementation has limitations. First, the project only implement propotion of R Second, the python script was  
 
 ## References
 

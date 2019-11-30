@@ -10,7 +10,7 @@ use_virtualenv("ENV3")
 ```
 
 # starting from here, the code was based on cloudmesh and openstack
-# the code from https://github.com/cloudmesh/cloudmesh-cloud/blob/master/cloudmesh/compute/openstack/Provider.py
+# the code is from https://github.com/cloudmesh/cloudmesh-cloud/blob/master/cloudmesh/compute/openstack/Provider.py
 ```{python}
 
 import os
