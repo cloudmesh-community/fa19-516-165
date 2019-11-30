@@ -1,43 +1,76 @@
-# Cloudmesh Compute Project with Google Cloud Platform (GCP)
+# Impletmention of Cloudmesh Compute Project in Rstudio
 
 Zhi Wang, [fa19-516-165](https://github.com/cloudmesh-community/fa19-516-165), School of Public Health, Indiana University Bloomington
 
 ## Abstract
 
+The purpose of this project is 
+
 ## Introduction
 
 The purpose of this project is to implement related features to simplify compute
-interface. The project implementation will include the following clouds:  
+interface of Cloudmesh in RStuido. The project implementation includes the following clouds:  
 
+* Cloudmesh
 * OpenStack
 
-The benchmarks for this project will include the following components:
+Cloudmesh is an easy way to manage different cloud services including Openstack, Azure, AWS, and Google Cloud Platform 
+(under developing). Cloudmesh is able to start virtual machine in command line as well as a command shell. Using 
+Cloudmesh is able to simplify the cloud implementation process.
 
-* virtual machine
-* image
-* flavor
-* security groups
+R programming is a very popular language in data science field. RStudio is a development environment for R (similar 
+Python v.s. Pycharm). R has strong presence in data analytics field. But it does not come without limitations. 
+First, R programming language is based on S language (over 50 years old). But the old technologies have been updated 
+since R becomes more and more popular. Another limitation is that R stores all objects in physical memory. As such, 
+computing power highly depends on the local RAM capacity. 
 
-## Progress
+Thus, there is a need to integrate R with cloud service. Even though most cloud services provide R programming in their
+service, Cloudmesh provides a channel to interact with different cloud services. 
 
-### Week October 14 
+## Technology Review -- Auto Machine Learning in Clouds
 
-#### Solved Cloudmesh setting issues on macOS Catalina 
+## Results
 
-#### Learned command line, bash file, and zsh in macOS Catalina
+This project has successfully implemented Cloudmesh with OpenStack within RStudio. The biggest component for this project
+is to call/run Python script within RStudio by using Rstudio, R Markdown, and library 
+
+### Limitations 
+
+This 
+
+## Conclusion
+
+## References
+
+* [Cloudmesh Development Projects- Cloudmesh Compute](https://cloudmesh.github.io/cloudmesh-manual/projects/project-compute.html)
+* [Using the Cloud Client Libraries for Python](https://cloud.google.com/compute/docs/tutorials/python-guide)
+* [Github Cloudmesh Compute](https://github.com/cloudmesh/cloudmesh-cloud/tree/master/cloudmesh/compute)
+* [oh-my-zhs](https://ohmyz.sh)
+* [Scripting OS X](https://scriptingosx.com/)
+* [Google API core library](http://googleapis.github.io/google-api-python-client/docs/epy/index.html)
+
+## Appendix 
+
+### Progress
+
+#### Week October 14 
+
+##### Solved Cloudmesh setting issues on macOS Catalina 
+
+##### Learned command line, bash file, and zsh in macOS Catalina
 
 Since Catalina uses zsh as its default shell, installation process is 
-a little different compared with previous bash file. Thanks to Dr. Laszewski
-I was able to install Cloudmesh smoothly. Besides this, I also studied a 
+a little different compared with previous bash file. Thanks to Dr. Laszewski, I was able to 
+install Cloudmesh smoothly. Besides this, I also studied a 
 little further on shell on .bash_profile and .zprofile. 
 
-##### Why switch from .bash_profile to .zprofile
+###### Why switch from .bash_profile to .zprofile
 
 I found that it is even though there are bash v4 and v5 available, Apple 
 does not update to newer versions because of the licenses (bash v3.2 with 
 GPL v2. and v4/v5 with GPL v3.). 
 
-##### Solution to stick to bash without warning message
+###### Solution to stick to bash without warning message
 
 Bash file is not gone but will not last indefinitely either. For Catalina
 users, if you want to stick to bash, you can add follow environment variable 
@@ -50,7 +83,7 @@ to your .bash_profile or .bashrc.
 For more information about zsh configuration, please visit [oh-my-zsh](https://ohmyz.sh)
 for more information. 
 
-##### Complete Steps to reinstall/create Python virtual environment in macOS Catalina
+###### Complete Steps to reinstall/create Python virtual environment in macOS Catalina
 
 - Why we need Python virtual environments?
 
@@ -90,7 +123,7 @@ environment to deploy codes. Virtual environments are needed to avoid destroy
         
         Next time, you can just type aliases to activate your environments.
     
- ### Week October 21 
+ ##### Week October 21 
  
  Identified related Google Cloud Libraries that are useful to this project, including
  
@@ -98,26 +131,16 @@ environment to deploy codes. Virtual environments are needed to avoid destroy
   
   2. Compute Engine Client API
   
-### Week November 4
+##### Week November 4
 
 Reviewed the Google Cloud Platform Python client library. In this week, I reviewed the documentations of Cloud Client 
 Libraries for Python. 
 
-### Week November 11
+##### Week November 11
 
-Started to code Provider.py file for GCP.  
-    
-## Results
+Started to code Provider.py file for GCP.
 
-### Limitations 
+##### Week November 26
 
-## Conclusion
-
-## References
-
-* [Cloudmesh Development Projects- Cloudmesh Compute](https://cloudmesh.github.io/cloudmesh-manual/projects/project-compute.html)
-* [Using the Cloud Client Libraries for Python](https://cloud.google.com/compute/docs/tutorials/python-guide)
-* [Github Cloudmesh Compute](https://github.com/cloudmesh/cloudmesh-cloud/tree/master/cloudmesh/compute)
-* [oh-my-zhs](https://ohmyz.sh)
-* [Scripting OS X](https://scriptingosx.com/)
-* [Google API core library](http://googleapis.github.io/google-api-python-client/docs/epy/index.html)
+After discussion with Dr. Laszewski, I decided to switch the project from implementing Google Cloud Platform to 
+implementing Cloudmesh with OpenStack within RStudio. 
