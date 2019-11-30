@@ -9,7 +9,7 @@ The purpose of this project is
 ## Introduction
 
 The purpose of this project is to implement related features to simplify compute
-interface of Cloudmesh in RStuido. The project implementation includes the following clouds:  
+interface of Cloudmesh in RStuido. The project implementation includes the following cloud Services:  
 
 * Cloudmesh
 * OpenStack
@@ -24,22 +24,59 @@ First, R programming language is based on S language (over 50 years old). But th
 since R becomes more and more popular. Another limitation is that R stores all objects in physical memory. As such, 
 computing power highly depends on the local RAM capacity. 
 
-Thus, there is a need to integrate R with cloud service. Even though most cloud services provide R programming in their
-service, Cloudmesh provides a channel to interact with different cloud services. 
+Thus, there is a need to integrate R with cloud services as R become popular in data science field. Even though most 
+cloud services provide R programming in their service, Cloudmesh provides a channel to interact with different cloud 
+services. 
 
 ## Technology Review -- Auto Machine Learning in Clouds
 
+In the top three cloud services: Amazon Web Service (AWS), Google Cloud Platform (GCP), and 
+
+
 ## Process 
 
-Overall there are four steps to implement the code:
+Overall there are four steps to implement this project:
 
 1. Install necessary R package - reticulate
 
-2. Create R Markdown Environment
+Reticulate is a R programming package to interface with Python. It can choose either call the Python script in the same 
+folder or write Python Code in the a Markdown session. 
+
+```r
+# install.packages("reticulate")
+
+# load  reticulate in R
+library(reticulate)
+```
+
+
+2. Create R Markdown Environment/Indicate the file location
+
+R Markdown is very similar to Jupyter Notebook in Python. With R Markdown, one benefit is that it contains Python engine 
+and users are able to write Python code directly. 
+
+```r
+# run provider script in the same location
+# the provider file may was based on previous code
+
+py_run_file("Provider.py")
+```
 
 3. Indicate Python Environment
 
+In this step, we need to indicate which Python environment should use. For example, in our class, we created a virtual
+environment to run our project. 
+
+```` r
+# activate the Python virtual environment
+# please use the use_virtualenv command as it should be
+
+use_virtualenv("/Users/zwang/ENV3/bin/python")
+````
+
 4. Implement existing Python code
+
+When to execute the Python code, we can either choose run Python code in R Markdown or in pure R environment.  
 
 ## Results
 
@@ -49,7 +86,8 @@ Clouldmesh with OpenStack service (based on the implemented project of Cloudmesh
 
 ### Limitations 
 
-This implementation has limitations. First, the project only implement propotion of R Second, the python script was  
+This implementation has limitations. First, the project is only a small step of implementation Cloudmesh in R. Second, 
+the Python script -- Cloudmesh with OpenStack (based on previous work).
 
 ## References
 
