@@ -6,6 +6,26 @@ Zhi Wang, [fa19-516-165](https://github.com/cloudmesh-community/fa19-516-165), S
 
 The purpose of this project is to implement Cloudmesh service in RStudio/R.
 
+## Technology Review -- Auto Machine Learning in Clouds
+
+### Brief
+In all three major cloud services: Amazon Web Service (AWS), Google Cloud Platform (GCP), and Microsoft Azure, the
+providers offers machine learning as a service (MLaaS) to help their clients to customize their machine learning models.
+The concept of MLaaS, similar to Software as a service (SaaS), is a series infrastructure for machine learning pipelines, 
+such as data management, pre-processing, feature engineering, model selection, model training and tuning, and model
+evaluation. 
+
+With different needs business needs, all most all cloud service provicers are offering MLaaS and integrated it with their
+platform. For example, Google has Cloud AutoML; 
+ 
+### Comparision of Different MLaaS
+
+MLasS across the three platforms are different and have their own features. 
+
+Machine learning as a service (MLaaS) is an umbrella definition of various cloud-based platforms that cover most infrastructure issues such as data pre-processing, model training, and model evaluation, with further prediction. Prediction results can be bridged with your internal IT infrastructure through REST APIs.
+
+### Future of MLaaS 
+
 ## Introduction
 
 The purpose of this project is to implement related features to simplify compute
@@ -28,9 +48,6 @@ Thus, there is a need to integrate R with cloud services as R become popular in 
 cloud services provide R programming in their service, Cloudmesh provides a channel to interact with different cloud 
 services. 
 
-## Technology Review -- Auto Machine Learning in Clouds
-
-In the top three cloud services: Amazon Web Service (AWS), Google Cloud Platform (GCP), and 
 
 
 ## Process 
