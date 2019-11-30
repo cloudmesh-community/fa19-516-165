@@ -7,7 +7,6 @@ title: "implement_cloudmesh_inR"
 # install.packages("reticulate")
 library(reticulate)
 use_virtualenv("ENV3")
-```
 
 # starting from here, the code was based on cloudmesh and openstack
 # the code is from https://github.com/cloudmesh/cloudmesh-cloud/blob/master/cloudmesh/compute/openstack/Provider.py
