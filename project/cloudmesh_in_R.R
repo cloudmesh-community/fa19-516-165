@@ -10,7 +10,7 @@ library(rcms)
 # double check the python config to enasure
 py_config()
 
-# test two simple examples
+# test two examples
 
 cms("help")
 
