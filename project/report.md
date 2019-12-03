@@ -55,7 +55,7 @@ environment to run our project.
 Sys.setenv(RETICULATE_PYTHON = "/Users/zwang/ENV3/bin/python")
 ````
 
-3. Create the function to implement the Cloudmesh cms function
+3. Create the function to implement the Cloudmesh cms Function
 
 ```r
 cms <-function (command){
@@ -65,17 +65,35 @@ cms <-function (command){
 }
 ```
 
-4. Create the R Package to 
+4. Create the R Package for Distribution
 
-One of the easiest way to create a R package through RStutido. The required library is use the package called ''
+4.1 One of the easiest way to create a R package through RStutido. The required library is use the package called 'devtools'.
+
+```r
+install.packages('devtools')
+```
+
+4.2 create a R Package Projects through the file manue
+
+4.3 Indicate the function R file
+
+4.4 Build the package and restart RStudido 
+
+4.5 Revise the R Document file in man folder
+
+4.6 Build the .tgz file for distribution
 
 ## Results
 
-This project has successfully implemented Cloudmesh cms function within RStudio. 
+This project has successfully implemented Cloudmesh cms function within RStudio. The test results are included in the 
+Screenshots session. 
 
 ## Screenshots
 
-## Checklist
+
+
+
+## Project Checklist
 
 ### Limitations 
 
