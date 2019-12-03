@@ -14,7 +14,7 @@ use_virtualenv("/Users/zwang/ENV3/bin/python")
 
 # run provider script in the same location
 # the provider file may was based on the
-py_run_file("Provider.py")
+py_run_string("from cloudmesh.cloud import Shell")
 
 
 
