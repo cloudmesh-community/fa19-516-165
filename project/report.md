@@ -90,9 +90,19 @@ Screenshots session.
 
 ## Screenshots
 
-![Set Python Environment in R]
-(/Users/zwang/cm/fa19-516-165/project/image/Python_setting_in_R.png)
+1. Set the Python Environment in R 
 
+2. load the reticulate and rcms package
+
+![Set Python Environment in R](./image/Python_setting_in_R.png)
+
+3. test the cms help command in R
+
+![test cms help](./image/test_cms_help.png)
+
+4. test the cms version command in R 
+
+![test cms version](./image/test_cms_version.png)
 
 ## Project Checklist
 
