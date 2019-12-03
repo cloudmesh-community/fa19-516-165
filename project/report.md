@@ -90,7 +90,8 @@ Screenshots session.
 
 ## Screenshots
 
-
+![Set Python Environment in R]
+(/Users/zwang/cm/fa19-516-165/project/image/Python_setting_in_R.png)
 
 
 ## Project Checklist

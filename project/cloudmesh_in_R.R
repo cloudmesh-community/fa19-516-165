@@ -1,5 +1,3 @@
-# load  reticulate in R
-
 # have to indidate the system variable first
 Sys.setenv(RETICULATE_PYTHON = "/Users/zwang/ENV3/bin/python")
 
