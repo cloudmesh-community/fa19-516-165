@@ -4,9 +4,8 @@ Zhi Wang, [fa19-516-165](https://github.com/cloudmesh-community/fa19-516-165), S
 
 ## Abstract
 
-The purpose of this project is to implement Cloudmesh service in RStudio/R.
-
-
+The purpose of this project is to implement Cloudmesh service in RStudio/R. As a popular programming language, R/RStudio
+(IDE) are well-known in data science community. One major limitation of R is that it stores its data to 
 
 ## Introduction
 
@@ -14,7 +13,6 @@ The purpose of this project is to implement related features to simplify compute
 interface of Cloudmesh in RStuido. The project implementation includes the following cloud Services:  
 
 * Cloudmesh
-* OpenStack
 
 Cloudmesh is an easy way to manage different cloud services including Openstack, Azure, AWS, and Google Cloud Platform 
 (under developing). Cloudmesh is able to start virtual machine in command line as well as a command shell. Using 
@@ -29,8 +27,6 @@ computing power highly depends on the local RAM capacity.
 Thus, there is a need to integrate R with cloud services as R become popular in data science field. Even though most 
 cloud services provide R programming in their service, Cloudmesh provides a channel to interact with different cloud 
 services. 
-
-
 
 ## Process 
 
