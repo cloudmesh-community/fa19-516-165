@@ -42,3 +42,8 @@ hospitals, insurance company, and pharmacies. Different with the other two compe
 strategies and trying to directly compete with other healthcare companies. For example, Amazon bought a online pharmacy
 company, PillPack, to directly join in the healthcare competition. This is the reason why healthcare companies are 
 willing to use Microsoft and Google's services instead of Amazon. 
+
+## References
+* [Microsoft Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
+* [Google AutoML](https://cloud.google.com/automl/)
+* [Amazon SageMaker](https://aws.amazon.com/machine-learning/)

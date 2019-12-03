@@ -6,12 +6,13 @@ Zhi Wang, [fa19-516-165](https://github.com/cloudmesh-community/fa19-516-165), S
 
 The purpose of this project is to implement Cloudmesh service in RStudio/R. As a popular programming language, R/RStudio
 (IDE) are well-known in data science community. One major limitation of R is that it stores its data to local memory. As
-such, there is a need to integrate the cloud services into RStudio.
+such, there is a need to integrate the cloud services into RStudio. The purpose of this project is to build a R package
+to use Cloudmesh-cms function in R and RStudio. 
 
 ## Introduction
 
 The purpose of this project is to implement related features to simplify compute
-interface of Cloudmesh in RStuido. The project implementation focuses on CMS command. 
+interface of Cloudmesh in RStuido and to build a R package to use Cloudmesh-cms function in R and RStudio. . 
 
 Cloudmesh is an easy way to manage different cloud services including Openstack, Azure, AWS, and Google Cloud Platform 
 (under developing). Cloudmesh is able to start virtual machine in command line as well as a command shell. Using 
@@ -31,7 +32,7 @@ services.
 
 Overall there are four steps to implement this project:
 
-1. Install necessary R package - reticulate
+1. Install necessary R package - Reticulate
 
 Reticulate is a R programming package to interface with Python. It can choose either call the Python script in the same 
 folder or write Python Code in the a Markdown session. 
@@ -43,44 +44,43 @@ folder or write Python Code in the a Markdown session.
 library(reticulate)
 ```
 
-
-2. Create R Markdown Environment/Indicate the file location
-
-R Markdown is very similar to Jupyter Notebook in Python. With R Markdown, one benefit is that it contains Python engine 
-and users are able to write Python code directly. 
-
-```r
-# run provider script in the same location
-# the provider file may was based on previous code
-
-py_run_file("Provider.py")
-```
-
-3. Indicate Python Environment
+2. Indicate Python Environment
 
 In this step, we need to indicate which Python environment should use. For example, in our class, we created a virtual
 environment to run our project. 
 
 ```` r
-# activate the Python virtual environment
-# please use the use_virtualenv command as it should be
+# activate the Python with existing Cloudmesh installation
 
-use_virtualenv("/Users/zwang/ENV3/bin/python")
+Sys.setenv(RETICULATE_PYTHON = "/Users/zwang/ENV3/bin/python")
 ````
 
-4. Implement existing Python code
+3. Create the function to implement the Cloudmesh cms function
 
-When to execute the Python code, we can either choose run Python code in R Markdown or in pure R environment.  
+```r
+cms <-function (command){
+  library(reticulate)
+  cloudmesh <- import("cloudmesh")
+  cloudmesh$cloud$Shell$cms(command)
+}
+```
+
+4. Create the R Package to 
+
+One of the easiest way to create a R package through RStutido. The required library is use the package called ''
 
 ## Results
 
-This project has successfully implemented Cloudmesh with OpenStack within RStudio. The biggest component for this project
-is to call/run Python script within RStudio by using Rstudio, R Markdown, and library - reticulate, to call existing 
-Clouldmesh with OpenStack service (based on the implemented project of Cloudmesh). 
+This project has successfully implemented Cloudmesh cms function within RStudio. 
+
+## Screenshots
+
+## Checklist
 
 ### Limitations 
 
-This implementation has limitations. First, the project is only a small step of implementation Cloudmesh in R. Second, 
+This implementation has limitations. First, the project is only a small step of implementation Cloudmesh in R. It focuses
+only on one command - cms function Second, 
 the Python script -- Cloudmesh with OpenStack (based on previous work).
 
 ## References
@@ -91,9 +91,7 @@ the Python script -- Cloudmesh with OpenStack (based on previous work).
 * [oh-my-zhs](https://ohmyz.sh)
 * [Scripting OS X](https://scriptingosx.com/)
 * [Google API core library](http://googleapis.github.io/google-api-python-client/docs/epy/index.html)
-* [Microsoft Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
-* [Google AutoML](https://cloud.google.com/automl/)
-* [Amazon SageMaker](https://aws.amazon.com/machine-learning/)
+* [Instructions for Creating Your Own R Package](http://web.mit.edu/insong/www/pdf/rpackage_instructions.pdf)
 
 ## Appendix 
 
@@ -190,3 +188,9 @@ Started to code Provider.py file for GCP.
 
 After discussion with Dr. Laszewski, I decided to switch the project from implementing Google Cloud Platform to 
 implementing Cloudmesh with OpenStack within RStudio. 
+
+#### Week of December 2
+
+- Listed all required steps to implement the project
+- Re-defined the scope of this project with instructor
+- Write the function of rcms and create the rcms R package
