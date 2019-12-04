@@ -73,7 +73,7 @@ cms <-function (command){
 install.packages('devtools')
 ```
 
-4.2 create a R Package Projects through the file manue
+4.2 create a R Package Projects through the file menu
 
 4.3 Indicate the function R file
 
