@@ -1,0 +1,10 @@
+Package: rcms
+Type: Package
+Title: Cloudemesh-cms in R
+Version: 0.1.0
+Author: Zhi Wang
+Maintainer: TBD
+Description: The purpose of this project is to build a R package to use Cloudmesh-cms function in R and RStudio.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
