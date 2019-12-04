@@ -196,7 +196,7 @@ environment to deploy codes. Virtual environments are needed to avoid destroy
         
         Next time, you can just type aliases to activate your environments.
     
- ##### Week October 21 
+ #### Week October 21 
  
  Identified related Google Cloud Libraries that are useful to this project, including
  
@@ -204,16 +204,16 @@ environment to deploy codes. Virtual environments are needed to avoid destroy
   
   2. Compute Engine Client API
   
-##### Week November 4
+#### Week November 4
 
 Reviewed the Google Cloud Platform Python client library. In this week, I reviewed the documentations of Cloud Client 
 Libraries for Python. 
 
-##### Week November 11
+#### Week November 11
 
 Started to code Provider.py file for GCP.
 
-##### Week November 26
+#### Week November 26
 
 After discussion with Dr. Laszewski, I decided to switch the project from implementing Google Cloud Platform to 
 implementing Cloudmesh with OpenStack within RStudio. 
