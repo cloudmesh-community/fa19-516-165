@@ -13,3 +13,5 @@ py_config()
 cms("help")
 
 cms("version")
+
+cms("flavor")
