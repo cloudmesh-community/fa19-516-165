@@ -1,6 +1,7 @@
 # Impletmention of Cloudmesh Compute Project in Rstudio
 
-Zhi Wang, [fa19-516-165](https://github.com/cloudmesh-community/fa19-516-165), School of Public Health, Indiana University Bloomington
+Zhi Wang, [fa19-516-165](https://github.com/cloudmesh-community/fa19-516-165), School of Public Health, Indiana 
+University Bloomington
 
 Insights:
 
@@ -10,22 +11,7 @@ Insights:
 
 Example code at github
 
-* <
-
-:o2: see the report.md file for others, they have links that you need to include 
-
-We cannot review your project without the links to your code and so on.
-
-:o2: use proper markdown 
-
-* bullets ar *
-* commands and sys files are `.basthrc`
-* format to 80 chars
-* commands are prefixed by $
-
-  ```bash
-  $ ls
-  ```
+* <https://github.com/cloudmesh-community/fa19-516-165/blob/master/project/cloudmesh_in_R.R>
 
 ## Abstract
 
@@ -203,38 +189,32 @@ to avoid destroy
 - Steps to to create new environment for new projects by command lines. 
 
     1. Create a new python 3 virtual environment and name it
-
-        :o2:    
-        ~~~~
-        python3 -m venv ~/environment_name
+  
+        ~~~~bash
+        $ python3 -m venv ~/environment_name
         ~~~~
         
     2.  Activate your new virtual environment. This step is important since
-    you need to activate your new python environment.  
-
-        :o2:    
+    you need to activate your new python environment.   
     
-        ~~~~
-        source ~/environment_name/bin/activate
+        ~~~~bash
+        $ source ~/environment_name/bin/activate
         ~~~~
         
     3. Even though you can use pycharm to install a package, you still 
     need to have a package manager to help yo manage your packages. Starting 
     this point, you are able to install the packages you want. 
-
-        :o2:    
     
-        ~~~~
-        pip install pip -U
+        ~~~~bash
+        $ pip install pip -U
         ~~~~
         
      4. To manage your environment easier, you can modify your zprofile 
     and switch your environment easily. 
 
-        :o2:    
-        ~~~~
-        alias d="source ~/environment_1/bin/activate "
-        alias env3="source ~/environment_2/bin/activate"
+        ~~~~bash
+        $ alias d="source ~/environment_1/bin/activate "
+        $ alias env3="source ~/environment_2/bin/activate"
         ~~~~
         
         Next time, you can just type aliases to activate your
