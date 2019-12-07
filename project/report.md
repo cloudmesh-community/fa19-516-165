@@ -2,6 +2,15 @@
 
 Zhi Wang, [fa19-516-165](https://github.com/cloudmesh-community/fa19-516-165), School of Public Health, Indiana University Bloomington
 
+Insights:
+
+* <https://github.com/cloudmesh-community/fa19-516-165/graphs/contributors>
+
+* <https://github.com/cloudmesh/cloudmesh-r/graphs/contributors>
+
+Example code at github
+
+* <
 
 :o2: see the report.md file for others, they have links that you need to include 
 
