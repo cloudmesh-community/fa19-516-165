@@ -1,4 +1,4 @@
-# Impletmention of Cloudmesh Compute Project in Rstudio
+# Impletmention of Cloudmesh CMS Command in Rstudio
 
 Zhi Wang, [fa19-516-165](https://github.com/cloudmesh-community/fa19-516-165)
 , School of Public Health, Indiana University Bloomington
