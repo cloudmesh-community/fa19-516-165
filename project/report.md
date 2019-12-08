@@ -13,6 +13,10 @@ Example code at github
 
 * <https://github.com/cloudmesh-community/fa19-516-165/blob/master/project/cloudmesh_in_R.R>
 
+Manual page
+
+* 
+
 ## Abstract
 
 The purpose of this project is to implement Cloudmesh service in RStudio/R. As a popular programming language, R/RStudio
