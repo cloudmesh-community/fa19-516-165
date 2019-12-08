@@ -131,6 +131,10 @@ RStudio. The test results are included in the Screenshots session.
 
 ![test cms version](./image/test_cms_version.png)
 
+5. pass a unit test 
+
+![test cms version](./image/unit_test.png)
+
 ## Project Checklist
 
 ### Limitations 
