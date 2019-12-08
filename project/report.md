@@ -1,7 +1,7 @@
 # Impletmention of Cloudmesh Compute Project in Rstudio
 
-Zhi Wang, [fa19-516-165](https://github.com/cloudmesh-community/fa19-516-165), School of Public Health, Indiana 
-University Bloomington
+Zhi Wang, [fa19-516-165](https://github.com/cloudmesh-community/fa19-516-165)
+, School of Public Health, Indiana University Bloomington
 
 Insights:
 
@@ -15,13 +15,15 @@ Example code at github
 
 Manual page
 
-* 
+* <https://github.com/cloudmesh/cloudmesh-r/blob/master/README.md>
 
 ## Abstract
 
-The purpose of this project is to implement Cloudmesh service in RStudio/R. As a popular programming language, R/RStudio
-(IDE) are well-known in data science community. One major limitation of R is that it stores its data to local memory. As
-such, there is a need to integrate the cloud services into RStudio. The purpose of this project is to build a R package
+The purpose of this project is to implement Cloudmesh service in RStudio
+/R. As a popular programming language, R/RStudio (IDE) are well-known in 
+data science community. One major limitation of R is that it stores its 
+data to local memory. As such, there is a need to integrate the cloud 
+services into RStudio. The purpose of this project is to build a R package
 to use Cloudmesh-cms function in R and RStudio. 
 
 ## Introduction
