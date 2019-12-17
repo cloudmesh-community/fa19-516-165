@@ -144,6 +144,11 @@ step of implementation Cloudmesh in R. It focuses only on one command -
 cms function Second, the Python script -- Cloudmesh with OpenStack
 (based on previous work).
 
+### Acknowledgment
+
+In this section, I would like to thank Dr.Laszewski and the teaching 
+assistant for their help during this process.  
+
 ## References
 
 * [Cloudmesh Development Projects- Cloudmesh Compute](https://cloudmesh.github.io/cloudmesh-manual/projects/project-compute.html)
