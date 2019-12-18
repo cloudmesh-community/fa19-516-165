@@ -3,19 +3,17 @@
 Zhi Wang, [fa19-516-165](https://github.com/cloudmesh-community/fa19-516-165)
 , School of Public Health, Indiana University Bloomington
 
+:o2: please remove the progress section and instead integrate findings or limitations in your main text
+
 Insights:
 
 * <https://github.com/cloudmesh-community/fa19-516-165/graphs/contributors>
-
 * <https://github.com/cloudmesh/cloudmesh-r/graphs/contributors>
 
 Example code at github
 
-* <https://github.com/cloudmesh-community/fa19-516-165/blob/master/project/cloudmesh_in_R.R>
-
-Manual page
-
-* <https://github.com/cloudmesh/cloudmesh-r/blob/master/README.md>
+* Code: <https://github.com/cloudmesh-community/fa19-516-165/blob/master/project/cloudmesh_in_R.R>
+* Manual: <https://github.com/cloudmesh/cloudmesh-r/blob/master/README.md>
 
 ## Abstract
 
