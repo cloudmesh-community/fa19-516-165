@@ -1,4 +1,4 @@
-# Data Center fa19-516-165
+# Datacenter fa19-516-165
 
 ## E.Datacenter 2
 
@@ -36,9 +36,7 @@ as power to support the operation of data centers.[2]
 According to Vineyard Data Center website and Biomass Magazine, HP Lab Vineyard
 Data Center Park uses biomass as their main fuel.[2,3]
 
-## E.Datacenter 5
-
-#### Apple Solar Panel Farms in China
+## E.Datacenter 5: Apple Solar Panel Farms in China
 
 Apple Inc. sets up the goal of using 100% renewable energy for its global
 operation. In China, they operated various wind and solar projects across six regions
